@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--Tu wstawiamy linki do czcionki-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+<style>
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-variant: small-caps;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+}
+
+.p4 {
+    font-family: "Sofia", sans-serif;
+  font-weight: 900;
+  font-size: 1.875em;
+  text-shadow: 3px 3px 3px #6914b9;
+}
+
+.p5 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+}
+
+a:link {
+  color: rgb(0, 81, 255);
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(231, 0, 0);
+}
+
+/* selected link */
+a:active {
+  color: rgb(10, 10, 131);
+}
+
+a.first:link {color:#2305cf;}
+a.first:visited {color:green;}
+a.first:hover {font-size:150%;}
+
+a.two:link {color:#3700ff;}
+a.two:visited {color:green;}
+a.two:hover {font-family:monospace;}
+
+a.three:link {color:#0004fc;}
+a.three:visited {color:green;}
+a.three:hover {background:#d6f138;}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #e9dada}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+div.ex1 {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.ex2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+img {
+  float: left;
+}
+
+.div1 {
+  background: rgb(0, 219, 235);
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: rgb(1, 212, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: rgb(182, 4, 129);
+  color: white;
+  padding: 15px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+div.background {
+  background: url(kwiaty.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+}
+</style>
+</head>
+<body>
+<h1>Lorem ipsum dolor sit amet</h1>  
+<h1 class="font-effect-fire">Sofia on Fire</h1>
+<h1 class="font-effect-neon">Neon Effect</h1>
+<h1 class="font-effect-outline">Outline Effect</h1>
+<h1 class="font-effect-emboss">Emboss Effect</h1>
+<h1 class="font-effect-shadow-multiple">Multiple Shadow Effect</h1>
+
+
+<p class="p1" >Lorem ipsum dolor sit amet.</p>
+<p class="p2">0 1 2 3 4 5 6 7 8 9</p>
+<p class="p3">#*@%^&*</p>
+<p class="p4">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+<p class="p5">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+
+<p><b><a href="https://www.w3schools.com/css/css_link.asp">This is a link</a></b></p>
+<p><b><a class="first" href="default.asp" target="_blank">This link changes font-size</a></b></p>
+<p><b><a class="two" href="default.asp" target="_blank">This link changes font-family</a></b></p>
+<p><b><a class="three" href="default.asp" target="_blank">This link changes background-color</a></b></p>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+</ul>
+
+<h2><br></h2>
+
+<table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>Griffin</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+    </tr>
+  </table>
+
+  <h2><br></h2>
+
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>Griffin</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+      <td>$150</td>
+    </tr>
+    <tr>
+      <td>Joe</td>
+      <td>Swanson</td>
+      <td>$300</td>
+    </tr>
+    <tr>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>$250</td>
+    </tr>
+  </table>
+
+  <h2><br></h2>
+
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>Griffin</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+      <td>$150</td>
+    </tr>
+    <tr>
+      <td>Joe</td>
+      <td>Swanson</td>
+      <td>$300</td>
+    </tr>
+    <tr>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>$250</td>
+  </tr>
+  </table>
+
+  <div class="ex1">This div element has width: 500px;</div>
+<br>
+
+<div class="ex2">This div element has max-width: 500px;</div>d
+
+<p><img src="pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, 
+nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. 
+Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. 
+Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut 
+hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc 
+venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue
+on fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+
+<div class="div1">Div 1</div>
+<div class="div2">Div 2</div>
+<div class="div3">Div 3</div>
+<h2><br></h2>
+
+<div class="header">
+    <h1>Chania</h1>
+  </div>
+  
+  <div class="clearfix">
+    <div class="column menu">
+      <ul>
+        <li>The Flight</li>
+        <li>The City</li>
+        <li>The Island</li>
+        <li>The Food</li>
+      </ul>
+    </div>
+  
+    <div class="column content">
+      <h1>The City</h1>
+      <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+      <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <p>Footer Text</p>
+  </div>
+
+  <h2><br></h2>
+
+
+  <div class="background">
+    <div class="transbox">
+      <p>This is some text that is placed in the transparent box.</p>
+    </div>
+  </div>
+
+  div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Responsive Polaroid Images / Cards</h2>
+  
+  <div class="polaroid">
+    <img src="kwiaty3.jpg" alt="5 Terre" style="width:100%">
+    <div class="container">
+    <p>Cinque Terre</p>
+    </div>
+  </div>
+  
+  <div class="polaroid">
+    <img src="kwiaty2.jpg" alt="Norther Lights" style="width:100%">
+    <div class="container">
+    <p>Northern Lights</p>
+    </div>
+  </div>
+  <h2><br></h2>
+
+  <div class="newspaper">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+     consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
+      facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait 
+      nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. 
+    </div>
+  
+</body>
+
+
